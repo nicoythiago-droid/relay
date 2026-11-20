@@ -1,0 +1,15 @@
+{
+  "name": "triple-alianza-relay",
+  "version": "1.0.0",
+  "description": "Servidor intermedio para el modo online de Guerra de la Triple Alianza",
+  "main": "relay.js",
+  "scripts": {
+    "start": "node relay.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
